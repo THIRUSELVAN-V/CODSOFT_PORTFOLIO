@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/524f8fab6e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="photos/logo.png" class="logo">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Beginer in Web Development</p>
+            <h1>Hi, I'm <span>Thiruselvan V</span> </h1>
+        </div>
+
+    </div>
+</div>
+<!----------about---------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="photos/int.jpg">
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-ti">About Me</h1>
+                <p>I am THIRUSELVAN V.I am currently persuing BE-CSE first year
+                     in Bannari Amman Institute of Technology.I am intrested in Web development,learning
+                     new skills and technologies.Now I am learning many skills to do more projects
+                     in upcoming days. </p>
+              
+                    <p class="tab-link active-link" onclick="opentab(skills)">Skills</p>
+                   
+                   
+             
+                <div class="tab-cont active-tab" id="skills">
+                    
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Web App interface</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-cont" id="experience">
+                    <p class="tab-link active-link" onclick="opentab(skills)">Experience</p>
+                    <ul>
+                        <li><span>2022-2023</span><br>Basic python</li>
+                        <li><span>2021-2022</span><br>Basic c++</li>
+                        <li><span>Current</span><br>Web Development Training,Basic c program</li><br>
+                        
+                    </ul>
+                </div>
+                <div class="tab-cont" id="education">
+                    <p class="tab-link active-link" onclick="opentab(education)">Education</p>
+                    <ul>
+                        <li><span>2023-2027</span>BE.CSE from BIT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-ti">My Learning</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I will lrarn how to creat and maintain Websites.Now I am learning HTML for content 
+                    structure,CSS for styling, and JavaScript for intractivity.FrameWorks like 
+                    React or Angular will be explored,along with server-side languages like Node.JS 
+                    or PHP.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I focus on creating optimal user experience. Mastery of design tools like sketch
+                     or figma. I will be staying updated on design trends,accessibility, and 
+                     user-centered design trends.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>  Proficiency in design tools like Sketch or Adobe 
+                       XD is crucial, along with creating interactive prototypes. Knowledge of mobile
+                        app development processes, user testing, and staying updated on emerging 
+                        technologies and design patternsare essential for creating successful and 
+                        user-friendly mobile applications.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    
+</body>
+</html>
